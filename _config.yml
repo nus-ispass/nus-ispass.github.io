@@ -11,7 +11,7 @@ remote_theme: "DigitaleGesellschaft/jekyll-theme-conference@v3.6.0"
 markdown: kramdown
 sass:
   style: compressed
-
+  sass_dir: _sass
 # Additional exclude from processing
 exclude:
   - .github/
