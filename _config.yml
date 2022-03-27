@@ -5,7 +5,11 @@ description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nus-ispass.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 
-theme: jekyll-theme-conference
+#theme: jekyll-theme-conference
+remote_theme: "DigitaleGesellschaft/jekyll-theme-conference@2.0.0"
+
+plugin: 
+  - jekyll-include-cache
 
 # Build settings
 markdown: kramdown
