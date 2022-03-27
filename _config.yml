@@ -1,16 +1,12 @@
-title: ISPASS-2022
+title: Conference 2020
 preposition: at
 description: >-
-  2022 IEEE International Symposium on Performance Analysis of Systems and Software
+  Conference of a random organization on January 1st in Zurich, Switzerland
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nus-ispass.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://example.com" # the base hostname & protocol for your site, e.g. https://example.com
 
 #theme: jekyll-theme-conference
-remote_theme: "DigitaleGesellschaft/jekyll-theme-conference@v3.6.0"
-
-plugin: 
-  - jekyll-include-cache
-
+remote_theme: "DigitaleGesellschaft/jekyll-theme-conference@2.0.0"
 # Build settings
 markdown: kramdown
 sass:
@@ -65,26 +61,26 @@ conference:
   # Navigation bar
   navigation:
     logo:
-      name:
-      img:
-      url:
+      name: Digital Society Switzerland
+      # img: ''
+      url: 'https://digitale-gesellschaft.ch/'
     links:
-      - name: Tutorial
+      - name: Program
         relative_url: /program/
-#      - name: Talks
-#        relative_url: /talks/
-#      - name: Speakers
-#        relative_url: /speakers/
-#      - name: Location
-#        relative_url: /location/
-#      - name: Previous Editions
-#        menu:
-#          - name: 2020 (current)
-#            disabled: true
-#          - name: 2019
-#            relative_url: /2019/
-#          - name: 2018
-#            relative_url: /2018/
+      - name: Talks
+        relative_url: /talks/
+      - name: Speakers
+        relative_url: /speakers/
+      - name: Location
+        relative_url: /location/
+      - name: Previous Editions
+        menu:
+          - name: 2020 (current)
+            disabled: true
+          - name: 2019
+            relative_url: /2019/
+          - name: 2018
+            relative_url: /2018/
 
   # Link Preview for Sharing
   link_preview:
@@ -96,36 +92,36 @@ conference:
 
   # Main landing page
   main:
-    logo:
-       img: 'ispass.gif'
+    # logo:
+    #   img: ''
     links:
-      - name: Tutorial
+      - name: Program
         relative_url: /program/
       - name: How to get there
         relative_url: /location/
-#      - name: Tickets
-#        disabled: true
-#        absolute_url: ''
+      - name: Tickets
+        disabled: true
+        absolute_url: ''
 
   # Information boxes
- # info_bars:
-  #  - title: Welcome to the Conference Theme for Jekyll!
-  #    color: primary
-  #    main_only: false
-  #    text: |
-  #      The Theme was originally made for the [Winterkongress](https://www.digitale-gesellschaft.ch/kongress/), a yearly conference of the [Digital Society Switzerland](https://digitale-gesellschaft.ch/).
-#
-#        ---
-#
-#        See the [README](github.com/DigitaleGesellschaft/jekyll-theme-conference/) on the project's GitHub repository for further information on how to configure and adapt it to your needs.
-#    - text: This is just some random content for demonstration purposes.
-#      color: warning
-#      pages_only: true
+  info_bars:
+    - title: Welcome to the Conference Theme for Jekyll!
+      color: primary
+      main_only: true
+      text: |
+        The Theme was originally made for the [Winterkongress](https://www.digitale-gesellschaft.ch/kongress/), a yearly conference of the [Digital Society Switzerland](https://digitale-gesellschaft.ch/).
+
+        ---
+
+        See the [README](github.com/DigitaleGesellschaft/jekyll-theme-conference/) on the project's GitHub repository for further information on how to configure and adapt it to your needs.
+    - text: This is just some random content for demonstration purposes.
+      color: warning
+      pages_only: true
 
   # Live indications
   live:
     date: 01.01.2020
-    timezone: GMT+8
+    timezone: GMT+1
     stop:       240  # in minutes
     streaming:
       enable: true
