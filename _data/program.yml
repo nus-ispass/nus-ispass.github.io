@@ -5,7 +5,7 @@ days:
   rooms:
   - name: Room A
     talks:
-      - name: Vim Impetus Placerat Cotidieque Ad
+      - name: Laser Attack Benchmark Suite
         time_start: '12:00'
         time_end: '12:45'
       - name: Condimentum Vitae Sapien Pellentesque

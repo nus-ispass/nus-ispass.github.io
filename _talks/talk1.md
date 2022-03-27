@@ -1,7 +1,7 @@
 ---
-name: Vim Impetus Placerat Cotidieque Ad
+name: Laser Attack Benchmark Suite
 speakers:
-  - Tolga Philip
+  - Burin Amornpaisannon
 categories:
   - Cat B
   - Talk
